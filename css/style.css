@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --color_principale_1: #D91E2E;
+    --color_principale_1_dark: #aa0101;
+    --color_principale_2: #F29985;
+    --color_principale_2_dark: #ee8068;
+    --color_secondaire_1: #F2E0BD;
+    --color_secondaire_1_dark: #f0d295;
+    --color_2: gray;
+}
+/************** FONTS **************/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/************** BODY **************/
+
+body{
+    min-height: 100vh;
+    background-color: var(--color_secondaire_1);
+}
+
+/************** NAV **************/
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color_principale_1);
+    height: 4.5em;
+    width: 85%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+nav article{
+    display: flex;
+    gap: 5em;
+    margin: 0 3em;
+    /* border: solid 1px blue; */
+}
+.nav_button{
+    border-bottom: 2px solid var(--color_principale_1);
+}
+.nav_button a{
+    /* background: var(--color_2); */
+    text-decoration: none;
+    color: var(--color_secondaire_1);
+    font-weight: 500;
+}
+.nav_button a:hover{
+    color: var(--color_secondaire_1_dark);
+}
+.nav_button:active{
+    transform: scale(0.96);
+}
+article:last-of-type .nav_button:last-of-type{
+    border: none;
+}
+article:last-of-type .nav_button:last-of-type a{
+    background-color: var(--color_principale_2);
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    color: var(--color_principale_1_dark);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+article:last-of-type .nav_button:last-of-type a:hover{
+    background-color: var(--color_principale_2_dark);
+}
+article:last-of-type .nav_button:last-of-type:active{
+    transform: scale(0.96);
+}
+.logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color_secondaire_1);
+}
+.logo svg{
+    width: 3em;
+    margin: 0.5em;
+    transform: rotate(15deg);
+}
+.logo span{
+    font-size: 1.7em;
+    font-weight: 700;
+}
+.selected{
+    border-bottom: 2px solid var(--color_principale_2);
+}
+
+.logout{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 2em;
+    color: var(--color_principale_1);
+}
+.logout:hover{
+    color: var(--color_principale_1_dark);
+}
+.logout:active{
+    transform: scale(0.94);
+}

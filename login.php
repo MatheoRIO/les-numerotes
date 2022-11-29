@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="description" content="Idéo"> -->
+    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="shortcut icon" type="image/x-con" href="assets/logo-ideo-point-com.webp"> -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/login.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- <link rel="shortcut icon" type="image/x-con" href=""> -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/login.css">
     <!-- <script src="js/index.js" defer></script> -->
     
-    <title>Connexion - Idéo</title>
+    <title>Connexion - Les numérotés</title>
 </head>
 <body>
-    <!-- <header>
-        <img draggable="false" src="assets/logo_ideo_point_com.png" alt="Logo Idéo point com">
-    </header> -->
+    <header>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentcolor" d="M0 241.1C0 161 65 96 145.1 96c38.5 0 75.4 15.3 102.6 42.5L320 210.7l72.2-72.2C419.5 111.3 456.4 96 494.9 96C575 96 640 161 640 241.1v29.7C640 351 575 416 494.9 416c-38.5 0-75.4-15.3-102.6-42.5L320 301.3l-72.2 72.2C220.5 400.7 183.6 416 145.1 416C65 416 0 351 0 270.9V241.1zM274.7 256l-72.2-72.2c-15.2-15.2-35.9-23.8-57.4-23.8C100.3 160 64 196.3 64 241.1v29.7c0 44.8 36.3 81.1 81.1 81.1c21.5 0 42.2-8.5 57.4-23.8L274.7 256zm90.5 0l72.2 72.2c15.2 15.2 35.9 23.8 57.4 23.8c44.8 0 81.1-36.3 81.1-81.1V241.1c0-44.8-36.3-81.1-81.1-81.1c-21.5 0-42.2 8.5-57.4 23.8L365.3 256z"/></svg>
+        <span>Les Numérotés</span>
+    </header>
     <main>
         <?php
             session_start();
@@ -39,7 +43,7 @@
             <?php if (!empty($message)) { ?>
                 <p class="errorMessage"><?php echo $message; ?></p>
             <?php } ?>
-            <input type="submit" name="submit" value="Connexion">
+            <input type="submit" name="submit" value="Connexion" draggable="false">
         </form>
     </main>
 </body>

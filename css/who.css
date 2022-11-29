@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 4em; */
+    /* border: solid 1px blue; */
+    min-height: calc(100vh - 4.5em);
+}
+main section{
+    width: 95%;
+    /* border: 1px solid green; */
+}
+.numbers{
+    height: 75vh;
+    width: 30%;
+    background-color: var(--color_principale_2);
+    border-radius: 25px;
+    padding: 1.5em 1.5em;
+}
+.numbers h2{
+    text-align: center;
+    margin-bottom: 0.5em;
+    color: var(--color_principale_1_dark);
+}
+.number{
+    border-bottom: 1px solid var(--color_principale_1_dark);
+    color: var(--color_principale_1_dark);
+    padding: 1em 0 1em 0.5em;
+}
+.number:hover{
+    background: var(--color_principale_2_dark);
+    cursor: pointer;
+}
