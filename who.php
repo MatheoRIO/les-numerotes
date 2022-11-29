@@ -21,18 +21,28 @@
     <section>
       <article class="numbers">
         <h2>Liste des Numérotés</h2>
-        <div id="" class="number">Numéro 1</div>
-        <div id="" class="number">Numéro 2</div>
-        <div id="" class="number">Numéro 3</div>
-        <div id="" class="number">Numéro 4</div>
-        <div id="" class="number">Numéro 5</div>
-        <div id="" class="number">Numéro 6</div>
-        <div id="" class="number">Numéro 7</div>
-        <div id="" class="number">Numéro 8</div>
-        <div id="" class="number">Numéro 9</div>
+        <div id="number_1" class="number">Numéro 1</div>
+        <div id="number_2" class="number">Numéro 2</div>
+        <div id="number_3" class="number">Numéro 3</div>
+        <div id="number_4" class="number">Numéro 4</div>
+        <div id="number_5" class="number">Numéro 5</div>
+        <div id="number_6" class="number">Numéro 6</div>
+        <div id="number_7" class="number">Numéro 7</div>
+        <div id="number_8" class="number">Numéro 8</div>
+        <div id="number_9" class="number">Numéro 9</div>
       </article>
       <article class="numbers_description">
-  
+        <div id="number_description_1" class="number_description">
+          
+        </div>
+        <!-- <div id="number_description_2" class="number_description"></div>
+        <div id="number_description_3" class="number_description"></div>
+        <div id="number_description_4" class="number_description"></div>
+        <div id="number_description_5" class="number_description"></div>
+        <div id="number_description_6" class="number_description"></div>
+        <div id="number_description_7" class="number_description"></div>
+        <div id="number_description_8" class="number_description"></div>
+        <div id="number_description_9" class="number_description"></div> -->
       </article>
     </section>
   </main>

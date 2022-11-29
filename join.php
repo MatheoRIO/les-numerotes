@@ -17,5 +17,10 @@
 <body>
 <?php $nav = 4;?>
   <?php include("include/nav.php")?>
+  <main>
+    <form action="">
+      
+    </form>
+  </main>
 </body>
 </html>
