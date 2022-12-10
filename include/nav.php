@@ -1,26 +1,10 @@
 <nav>
   <section>
-    <?php
-    if ($nav == 1){
-      $selected = 'selected';
-      $selected2 = ''; $selected3 = ''; $selected4 = '';
-    }elseif($nav == 2){
-      $selected2 = 'selected';
-      $selected = ''; $selected3 = ''; $selected4 = '';
-    }elseif($nav == 3){
-      $selected3 = 'selected';
-      $selected = ''; $selected2 = ''; $selected4 = '';
-    }elseif($nav == 4){
-      $selected = ''; $selected2 = ''; $selected3 = ''; $selected4 = '';
-    }else{
-      $selected = ''; $selected2 = ''; $selected3 = ''; $selected4 = '';
-    }
-    ?>
     <article>
-      <div class="nav_button <?php echo $selected ?>">
+      <div class="nav_button <?= $nav==1 ? 'selected' : ''  ?>">
         <a href="who.php" draggable="false">Qui sont-ils ?</a>
       </div>
-      <div class="nav_button <?php echo $selected2 ?>">
+      <div class="nav_button <?= $nav==2 ? 'selected' : ''  ?>">
         <a href="summon.php" draggable="false">Les Summons</a>
       </div>
     </article>
@@ -31,10 +15,10 @@
       </a>
     </div>
     <article>
-      <div class="nav_button <?php echo $selected3 ?>">
+      <div class="nav_button <?= $nav==3 ? 'selected' : '' ?>">
         <a href="meme.php" draggable="false">Les Memes</a>
       </div>
-      <div class="nav_button <?php echo $selected4 ?>">
+      <div class="nav_button <?= $nav==4 ? 'selected' : '' ?>">
         <a href="join.php" draggable="false">Envie de les rejoindre ?</a>
       </div>
     </article>
