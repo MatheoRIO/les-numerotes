@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="js/index.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <title>Les numéros</title>
 </head>
 <body>
@@ -32,17 +34,33 @@
         <div id="number_9" class="number">Numéro 9</div>
       </article>
       <article class="numbers_description">
-        <div id="number_description_1" class="number_description">
-          
+        <div id="number_description_1" class="number_description" style="display: none;">
+          <p>Numéro 1</p>
         </div>
-        <!-- <div id="number_description_2" class="number_description"></div>
-        <div id="number_description_3" class="number_description"></div>
-        <div id="number_description_4" class="number_description"></div>
-        <div id="number_description_5" class="number_description"></div>
-        <div id="number_description_6" class="number_description"></div>
-        <div id="number_description_7" class="number_description"></div>
-        <div id="number_description_8" class="number_description"></div>
-        <div id="number_description_9" class="number_description"></div> -->
+        <div id="number_description_2" class="number_description" style="display: none;">
+          <p>Numéro 2</p>
+        </div>
+        <div id="number_description_3" class="number_description" style="display: none;">
+          <p>Numéro 3</p>
+        </div>
+        <div id="number_description_4" class="number_description" style="display: none;">
+          <p>Numéro 4</p>
+        </div>
+        <div id="number_description_5" class="number_description" style="display: none;">
+          <p>Numéro 5</p>
+        </div>
+        <div id="number_description_6" class="number_description" style="display: none;">
+          <p>Numéro 6</p>
+        </div>
+        <div id="number_description_7" class="number_description" style="display: none;">
+          <p>Numéro 7</p>
+        </div>
+        <div id="number_description_8" class="number_description" style="display: none;">
+          <p>Numéro 8</p>
+        </div>
+        <div id="number_description_9" class="number_description" style="display: none;">
+          <p>Numéro 9</p>
+        </div>
       </article>
     </section>
   </main>
